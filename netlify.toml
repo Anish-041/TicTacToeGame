@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = ""npm run build-vite && mkdir build && mv dist/* build""
   publish = "build"
 
 [[redirects]]
